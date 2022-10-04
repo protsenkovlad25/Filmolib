@@ -44,7 +44,8 @@
             <StackPanel Margin="0,50,0,0">
                 <Button
                     Content="Profile"
-                    Margin="10"/>
+                    Margin="10"
+                    Command="{Binding RegistrationPage}"/>
                 <Button
                     Content="Watchlist"
                     Margin="10"/>
