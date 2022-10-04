@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Filmolib.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace Filmolib.ViewModels
             {
                 return new RelayCommand(obj =>
                 {
-                    //ContentPage = new RegistrationPage();
+                    ContentPage = new RegistrationPage();
                 });
             }
         }
