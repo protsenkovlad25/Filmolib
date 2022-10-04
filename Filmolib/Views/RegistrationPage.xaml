@@ -14,6 +14,39 @@
     </UserControl.DataContext>
 
     <Grid>
-            
+        <TextBlock
+            Margin="0,10,0,0"
+            Text="Registration"
+            FontSize="30"
+            TextAlignment="Center"/>
+
+        <StackPanel Margin="0,100,0,0">
+            <TextBlock
+                Text="Email address"
+                HorizontalAlignment="Center"
+                Margin="10"/>
+            <TextBox
+                Text="{Binding NewEmail}"
+                Width="170"/>
+            <TextBlock
+                Text="Username"
+                HorizontalAlignment="Center"
+                Margin="10"/>
+            <TextBox
+                Text="{Binding NewUsername}"
+                Width="120"/>
+            <TextBlock
+                Text="Password"
+                HorizontalAlignment="Center"
+                Margin="10"/>
+            <TextBox
+                Text="{Binding NewPassword}"
+                Width="120"/>
+            <Button
+                Content="Sing Up"
+                Margin="0,30,0,0"
+                Width="70"
+                Command="{Binding AddUser}"/>
+        </StackPanel>
     </Grid>
 </UserControl>
