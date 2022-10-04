@@ -4,9 +4,60 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Filmolib"
+        xmlns:vm="clr-namespace:Filmolib.ViewModels"
         mc:Ignorable="d"
         Title="Filmolib" Height="720" Width="1280">
-    <Grid>
 
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="270"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <UserControl Content="{Binding ContentPage}"/>
+            </Grid>
+        </Grid>
+
+        <StackPanel>
+            <StackPanel >
+                <Button
+                    Content="Sing In"
+                    Margin="10"
+                    Command="{Binding RegistrationPage}"/>
+            </StackPanel>
+
+            <StackPanel Margin="0,50,0,0">
+                <Button
+                    Content="Profile"
+                    Margin="10"/>
+                <Button
+                    Content="Watchlist"
+                    Margin="10"/>
+                <Button
+                    Content="Watched"
+                    Margin="10"/>
+                <Button
+                    Content="My Catalogs"
+                    Margin="10"/>
+                <Button
+                    Content="Films Categories"
+                    Margin="10"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
