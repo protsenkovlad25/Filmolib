@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qLrUqi6kMlGDIpp3EXmA3SG5iX/4O+gcVkehWY3IiiRGg81Tc3d/xiqvvO5f5Yn1yetD+NXEQcU9rmvY9HOD8A==",
+  "dgSpecHash": "Kx6Rr/gLUAYWYReEVO0A2R9hjXr89ueQ3EtOjaxy/eWo9H0PkhtNMnrvsWbVUTzuHlDDKIVKaA8lTMYFXkTHxg==",
   "success": true,
   "projectFilePath": "E:\\C#\\Filmolib\\Filmolib\\Filmolib.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\79825\\.nuget\\packages\\fody\\6.6.3\\fody.6.6.3.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -33,6 +34,7 @@
     "C:\\Users\\79825\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\79825\\.nuget\\packages\\propertychanged.fody\\4.0.3\\propertychanged.fody.4.0.3.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\79825\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

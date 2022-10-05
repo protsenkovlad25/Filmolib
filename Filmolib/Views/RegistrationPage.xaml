@@ -26,27 +26,27 @@
                 HorizontalAlignment="Center"
                 Margin="10"/>
             <TextBox
-                Text="{Binding NewEmail}"
+                Text=""
                 Width="170"/>
             <TextBlock
                 Text="Username"
                 HorizontalAlignment="Center"
                 Margin="10"/>
             <TextBox
-                Text="{Binding NewUsername}"
+                Text=""
                 Width="120"/>
             <TextBlock
                 Text="Password"
                 HorizontalAlignment="Center"
                 Margin="10"/>
             <TextBox
-                Text="{Binding NewPassword}"
+                Text=""
                 Width="120"/>
             <Button
                 Content="Sing Up"
                 Margin="0,30,0,0"
                 Width="70"
-                Command="{Binding AddUser}"/>
+                Command=""/>
         </StackPanel>
     </Grid>
 </UserControl>

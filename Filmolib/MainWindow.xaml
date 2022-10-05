@@ -38,14 +38,14 @@
                 <Button
                     Content="Sing In"
                     Margin="10"
-                    Command="{Binding RegistrationPage}"/>
+                    Command="{Binding OpenRegistrationPage}"/>
             </StackPanel>
 
             <StackPanel Margin="0,50,0,0">
                 <Button
                     Content="Profile"
                     Margin="10"
-                    Command="{Binding RegistrationPage}"/>
+                    Command="{Binding OpenProfilePage}"/>
                 <Button
                     Content="Watchlist"
                     Margin="10"/>

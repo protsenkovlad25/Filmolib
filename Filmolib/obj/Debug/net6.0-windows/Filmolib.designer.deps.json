@@ -6,6 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "Fody/6.6.3": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -353,6 +354,17 @@
           }
         }
       },
+      "PropertyChanged.Fody/4.0.3": {
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -579,6 +591,13 @@
     }
   },
   "libraries": {
+    "Fody/6.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1WKKgSNYVtLzdO8dK3YWmfmljA4L0soePcWNouq9X6WbVF4bmivuJdlhTZx/2L3ml6tMvhFe8skIbVQ24PAYA==",
+      "path": "fody/6.6.3",
+      "hashPath": "fody.6.6.3.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -781,6 +800,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vRxEDydahhcetswKaoUug7mQywgpZpHoeHZWa7Opb+H+eWPUQo+f+v37Jy+rrG1RVOCkyziTgCkNetXzNlUXJw==",
+      "path": "propertychanged.fody/4.0.3",
+      "hashPath": "propertychanged.fody.4.0.3.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",

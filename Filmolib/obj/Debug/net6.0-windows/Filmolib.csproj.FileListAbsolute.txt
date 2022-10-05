@@ -54,3 +54,7 @@ E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Filmolib.genruntimeconfig.cache
 E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\ref\Filmolib.dll
 E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Views\RegistrationPage.g.cs
 E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Views\RegistrationPage.baml
+E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Views\ProfilePage.g.cs
+E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Views\ProfilePage.baml
+E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Filmolib.csproj.Fody.CopyLocal.cache
+E:\C#\Filmolib\Filmolib\obj\Debug\net6.0-windows\Filmolib.csproj.Fody.RuntimeCopyLocal.cache

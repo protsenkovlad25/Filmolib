@@ -10,12 +10,14 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.9"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
+          "PropertyChanged.Fody": "4.0.3"
         },
         "runtime": {
           "Filmolib.dll": {}
         }
       },
+      "Fody/6.6.3": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -329,6 +331,11 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
+      "PropertyChanged.Fody/4.0.3": {
+        "dependencies": {
+          "Fody": "6.6.3"
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -415,6 +422,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Fody/6.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1WKKgSNYVtLzdO8dK3YWmfmljA4L0soePcWNouq9X6WbVF4bmivuJdlhTZx/2L3ml6tMvhFe8skIbVQ24PAYA==",
+      "path": "fody/6.6.3",
+      "hashPath": "fody.6.6.3.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -618,6 +632,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vRxEDydahhcetswKaoUug7mQywgpZpHoeHZWa7Opb+H+eWPUQo+f+v37Jy+rrG1RVOCkyziTgCkNetXzNlUXJw==",
+      "path": "propertychanged.fody/4.0.3",
+      "hashPath": "propertychanged.fody.4.0.3.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
