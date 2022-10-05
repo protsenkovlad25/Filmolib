@@ -16,7 +16,6 @@ namespace Filmolib.Models
 
         public FilmolibContext()
         {
-            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

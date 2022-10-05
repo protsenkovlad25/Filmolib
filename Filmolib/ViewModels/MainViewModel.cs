@@ -13,7 +13,7 @@ namespace Filmolib.ViewModels
     {
         public UserControl ContentPage { get; set; }
 
-        public RelayCommand OpenRegistrationPage
+        public ICommand OpenRegistrationPage
         {
             get
             {
