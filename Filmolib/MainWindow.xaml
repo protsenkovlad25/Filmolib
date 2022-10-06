@@ -34,11 +34,18 @@
         </Grid>
 
         <StackPanel>
+            <StackPanel>
+                <Button
+                    Content="User Avatar"
+                    Margin="10"
+                    Height="150"
+                    IsEnabled="False"/>
+            </StackPanel>
             <StackPanel >
                 <Button
-                    Content="Sing In"
+                    Content="{Binding AuthorizationButton}"
                     Margin="10"
-                    Command="{Binding OpenRegistrationPage}"/>
+                    Command="{Binding OpenAuthorizationPage}"/>
             </StackPanel>
 
             <StackPanel Margin="0,50,0,0">
