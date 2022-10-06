@@ -33,7 +33,6 @@
                 HorizontalAlignment="Center"
                 Margin="10"/>
             <TextBox
-                Name="UsernameField"
                 Text="{Binding NewUsername}"
                 Width="120"/>
             <TextBlock
