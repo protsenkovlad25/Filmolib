@@ -1,8 +1,8 @@
 .vs/
-Filmolib/bin/
-Filmolib/obj/
-Filmolib/obj/Debug/
-Filmolib/obj/Debug/net6.0-windows/
-Filmolib/obj/Debug/net6.0-windows/Views/
-Filmolib/obj/Debug/net6.0-windows/ref/
-Filmolib/obj/Debug/net6.0-windows/refint/
+**/bin/
+**/obj/
+**/obj/Debug/
+**/obj/Debug/net6.0-windows/
+**/obj/Debug/net6.0-windows/Views/
+**/obj/Debug/net6.0-windows/ref/
+**/obj/Debug/net6.0-windows/refint/
