@@ -1,3 +1,3 @@
 /.vs
-/Filmolib/bin
-/Filmolib/obj
+**/Filmolib/bin
+**/Filmolib/obj
