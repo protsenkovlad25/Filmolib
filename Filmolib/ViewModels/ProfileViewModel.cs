@@ -1,4 +1,5 @@
 ﻿using Filmolib.Models;
+using System.Linq;
 using System.Windows.Input;
 
 namespace Filmolib.ViewModels
@@ -14,11 +15,10 @@ namespace Filmolib.ViewModels
         public ProfileViewModel()
         {
             _db = new FilmolibContext();
-        }
 
-        private void Initialize()
-        {
-            
+            UserUsername = _db.Users.Find(AuthorizedUser).Username;
+            UserPassword = _db.Users.Find(AuthorizedUser).Password;
+            UserEmail    = _db.Users.Find(AuthorizedUser).Email;
         }
 
         public ICommand Command
