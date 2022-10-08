@@ -51,7 +51,10 @@ namespace Filmolib.ViewModels
                             if (_db.SaveChanges() < 1)
                                 throw new DbUpdateException($"{newUser.Username} could not save to database");
                             else
+                            {
+                                AuthorizedUser = newUser;
                                 MessageBox.Show($"{newUser.Username} save to database");
+                            }
                         }
                     }
                     else MessageBox.Show("One of the fields is empty. Fill in the field");

@@ -9,7 +9,6 @@ namespace Filmolib.ViewModels
     {
         public UserControl ContentPage { get; set; }
         public string AuthorizationButton { get; set; }
-        public User? AuthorizedUser { get; set; }
 
         public MainViewModel()
         {
